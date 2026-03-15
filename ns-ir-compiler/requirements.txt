@@ -1,0 +1,44 @@
+# NS-IR Compiler — Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+
+# PyTorch Geometric (for GNN cost model)
+# Installation: pip install torch-geometric
+# See https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+torch-geometric>=2.3.0
+
+# Graph analysis
+networkx>=3.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# Data storage
+h5py>=3.8.0
+
+# LLVM IR parsing (production-grade alternative to regex parser)
+# llvmlite>=0.40.0
+
+# Polyhedral integer arithmetic (ISL bindings)
+# islpy>=2023.1
+
+# Progress bars
+tqdm>=4.65.0
+
+# Configuration management
+pyyaml>=6.0
+
+# C++ bindings (for TIRAMISU integration)
+# pybind11>=2.11.0
+
+# Testing
+pytest>=7.3.0
+pytest-cov>=4.0.0
+
+# Code quality
+black>=23.0.0
+mypy>=1.3.0
+flake8>=6.0.0

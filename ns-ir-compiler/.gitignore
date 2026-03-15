@@ -1,0 +1,61 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Distribution/packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+.env/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+
+# Type checking
+.mypy_cache/
+
+# IDE
+.vscode/settings.json
+.vscode/*.json
+.idea/
+
+# OS
+.DS_Store
+*.DS_Store
+Thumbs.db
+
+# Project-specific: trained models
+models/checkpoints/
+*.pt
+*.pth
+nsir_traced_model.pt
+
+# Data files
+data/measurements/
+data/programs/
+*.h5
+*.hdf5
+
+# Compiled C extensions
+*.so
+build_c/
+
+# Logs
+*.log
+logs/
+
+# Temp files
+/tmp/

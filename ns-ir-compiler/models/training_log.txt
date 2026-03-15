@@ -1,0 +1,44 @@
+Model parameters: 5,798,145
+
+========================================================================
+  NS-IR  State-of-the-Art Training
+  Device: cpu  |  Epochs: 150  |  LR: 0.0003
+  Dataset: 50K train / 5K val  |  Batch: 256
+  Contrastive lambda: 0.1  |  SWA start: epoch 120
+  Cosine restarts: T0=30
+========================================================================
+
+Epoch 001/150 | Huber 0.0042 | Contrast nan | TrainMAPE 5.63% | ValMAPE 2.60% (-inf%) | LR 2.99e-04 | 994.3s
+    Best model saved -> /Users/apple/Desktop/compiler design /ns-ir-compiler/models/checkpoints/best_model.pt  (val MAPE 2.60%)
+Epoch 002/150 | Huber 0.0005 | Contrast nan | TrainMAPE 2.61% | ValMAPE 2.43% (-0.16%) | LR 2.97e-04 | 1006.2s
+    Best model saved -> /Users/apple/Desktop/compiler design /ns-ir-compiler/models/checkpoints/best_model.pt  (val MAPE 2.43%)
+Epoch 003/150 | Huber 0.0005 | Contrast nan | TrainMAPE 2.47% | ValMAPE 2.28% (-0.15%) | LR 2.93e-04 | 993.1s
+    Best model saved -> /Users/apple/Desktop/compiler design /ns-ir-compiler/models/checkpoints/best_model.pt  (val MAPE 2.28%)
+Epoch 004/150 | Huber 0.0004 | Contrast nan | TrainMAPE 2.35% | ValMAPE 2.45% (+0.17%) | LR 2.87e-04 | 1005.5s
+Epoch 005/150 | Huber 0.0004 | Contrast nan | TrainMAPE 2.34% | ValMAPE 2.35% (-0.10%) | LR 2.80e-04 | 1020.0s
+Epoch 006/150 | Huber 0.0004 | Contrast nan | TrainMAPE 2.34% | ValMAPE 2.60% (+0.24%) | LR 2.71e-04 | 1042.2s
+Epoch 007/150 | Huber 0.0005 | Contrast nan | TrainMAPE 2.49% | ValMAPE 2.64% (+0.04%) | LR 2.62e-04 | 1024.3s
+Epoch 008/150 | Huber 0.0005 | Contrast nan | TrainMAPE 2.41% | ValMAPE 2.50% (-0.14%) | LR 2.51e-04 | 1051.6s
+Epoch 009/150 | Huber 0.0004 | Contrast nan | TrainMAPE 2.27% | ValMAPE 2.50% (+0.00%) | LR 2.38e-04 | 1014.0s
+Epoch 010/150 | Huber 0.0004 | Contrast nan | TrainMAPE 2.22% | ValMAPE 2.77% (+0.27%) | LR 2.25e-04 | 1013.9s
+Epoch 011/150 | Huber 0.0004 | Contrast nan | TrainMAPE 2.16% | ValMAPE 2.69% (-0.08%) | LR 2.11e-04 | 1012.2s
+Epoch 012/150 | Huber 0.0003 | Contrast nan | TrainMAPE 2.08% | ValMAPE 3.01% (+0.32%) | LR 1.97e-04 | 1009.0s
+Epoch 013/150 | Huber 0.0003 | Contrast nan | TrainMAPE 2.02% | ValMAPE 3.05% (+0.04%) | LR 1.82e-04 | 988.0s
+Epoch 014/150 | Huber 0.0003 | Contrast nan | TrainMAPE 1.96% | ValMAPE 3.28% (+0.22%) | LR 1.66e-04 | 987.2s
+Epoch 015/150 | Huber 0.0003 | Contrast nan | TrainMAPE 1.89% | ValMAPE 3.36% (+0.08%) | LR 1.50e-04 | 985.7s
+Epoch 016/150 | Huber 0.0003 | Contrast nan | TrainMAPE 1.86% | ValMAPE 3.51% (+0.15%) | LR 1.35e-04 | 997.2s
+Epoch 017/150 | Huber 0.0003 | Contrast nan | TrainMAPE 1.82% | ValMAPE 3.76% (+0.25%) | LR 1.19e-04 | 994.3s
+Epoch 018/150 | Huber 0.0002 | Contrast nan | TrainMAPE 1.77% | ValMAPE 3.90% (+0.13%) | LR 1.04e-04 | 994.7s
+Epoch 019/150 | Huber 0.0002 | Contrast nan | TrainMAPE 1.74% | ValMAPE 4.06% (+0.16%) | LR 8.97e-05 | 993.7s
+Epoch 020/150 | Huber 0.0002 | Contrast nan | TrainMAPE 1.72% | ValMAPE 4.15% (+0.10%) | LR 7.58e-05 | 983.4s
+Epoch 021/150 | Huber 0.0002 | Contrast nan | TrainMAPE 1.68% | ValMAPE 4.23% (+0.07%) | LR 6.26e-05 | 984.6s
+Epoch 022/150 | Huber 0.0002 | Contrast nan | TrainMAPE 1.67% | ValMAPE 4.30% (+0.07%) | LR 5.05e-05 | 982.5s
+Epoch 023/150 | Huber 0.0002 | Contrast nan | TrainMAPE 1.63% | ValMAPE 4.38% (+0.08%) | LR 3.94e-05 | 999.4s
+
+Early stopping: no improvement for 20 epochs.
+
+========================================================================
+  Training Complete  |  Best Val MAPE: 2.28%
+  Training curve saved -> /Users/apple/Desktop/compiler design /ns-ir-compiler/models/checkpoints/training_curve.json
+========================================================================
+
